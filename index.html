@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>My feedback form</h2>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" />
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" />
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" />
+    </div>
+    <div>
+        <h5>Please select all the emotions that apply to you:</h5>
+        
+        <input type="checkbox" name="check-emotion" id="angry" value="angry"/>
+        <label for="angry">Angry</label> <br />
+        <input type="checkbox" name="check-emotion" id="sad" value="sad"/>
+        <label for="sad">Sad</label> <br />
+        <input type="checkbox" name="check-emotion" id="happy" value="happy"/>
+        <label for="happy">Happy</label> <br />
+    </div>
+    <div>
+        <h5>How satisfied were you with our services?</h5>
+        <label for="very_satified">Very satisfied</label>
+        <input type="radio" name="services" id="very_satified" value="very-satisfied"> <br />
+        <label for="satisfied">Satisfied</label>
+        <input type="radio" name="services" id="satisfied"  value="satisfied"/> <br />
+        <label for="disatisfied">Disatisfied</label>
+        <input type="radio" name="services" id="disatisfied" value="disatisfied"> <br />
+    </div>
+    <div>
+        <h5>Gender?</h5>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        
+    </div>
+    <div>
+        <label for="commits">Further Commits:</label>
+        <textarea name="commits" id="commits" cols="25" rows="4"></textarea>
+    </div>
+    <div>
+        <label for="photo">Bio Photo:</label>
+        <input type="file" name="file" id="photo" />
+    </div>
+    <div>
+        <label for="location">Location Visited:</label>
+        <select name="location" id="location">
+            <option value=""></option>
+            <option value="FSD">Faisalabad</option>
+            <option value="LHR">Lahore</option>
+            <option value="ISB">Islamabad</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+    <hr />
+
+</body>
+
+
+</html>
